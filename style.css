@@ -20,7 +20,11 @@ h3 {
     margin-right: auto;
     width: 540px;
 }
-
+.all_watches_container{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
 .watch_container{
     border-radius: 13px;
     background-color: #1A1818;
@@ -28,12 +32,25 @@ h3 {
     border-style: solid;
     border-color: #FDEFA6;
 }
-.text h2{
+.watch_description {
     font-family: 'Dosis', sans-serif;
-}
-.text P {
-    font-family: 'Dosis', sans-serif;
-}
-.watch_container img:Classic Watch{
+    font-size: 16px;
+    }
     
+.text h2{
+    font-size: 26px;
+    font-family: 'Dosis', sans-serif;
+    
+
+img[alt="Classic Watch"]{
+    margin-left: 16px;
+    margin-right: 16px;
+    
+}
+footer{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
 }
